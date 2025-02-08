@@ -1,4 +1,4 @@
-#Last Modified: 2025年 02月 08日 星期六 14:47:40 CST
+#Last Modified: 2025年 02月 08日 星期六 16:07:38 CST
 /log info "Start updating CN_IP_List!"
 /log info "Start removing old list!"
 /ip firewall address-list remove [/ip firewall address-list find list=CN]
@@ -101,7 +101,6 @@ add list=CN address=14.167.240.0/20
 add list=CN address=14.180.128.0/17
 add list=CN address=14.204.0.0/15
 add list=CN address=14.208.0.0/12
-add list=CN address=14.238.128.0/18
 add list=CN address=14.255.240.0/24
 add list=CN address=14.255.249.0/24
 add list=CN address=16.2.142.0/23
@@ -116,7 +115,6 @@ add list=CN address=27.0.128.0/24
 add list=CN address=27.0.130.0/23
 add list=CN address=27.0.132.0/22
 add list=CN address=27.0.164.0/22
-add list=CN address=27.0.196.0/23
 add list=CN address=27.0.204.0/22
 add list=CN address=27.0.208.0/21
 add list=CN address=27.8.0.0/13
@@ -1510,7 +1508,6 @@ add list=CN address=103.19.208.0/24
 add list=CN address=103.19.232.0/22
 add list=CN address=103.20.32.0/22
 add list=CN address=103.20.51.0/24
-add list=CN address=103.20.88.0/24
 add list=CN address=103.20.112.0/22
 add list=CN address=103.20.120.0/24
 add list=CN address=103.20.184.0/23
@@ -1924,6 +1921,7 @@ add list=CN address=103.112.43.0/24
 add list=CN address=103.112.144.0/23
 add list=CN address=103.112.190.0/24
 add list=CN address=103.112.192.0/24
+add list=CN address=103.112.237.0/24
 add list=CN address=103.113.4.0/22
 add list=CN address=103.113.26.0/24
 add list=CN address=103.113.46.0/24
@@ -2409,7 +2407,6 @@ add list=CN address=103.228.204.0/23
 add list=CN address=103.228.208.0/22
 add list=CN address=103.228.228.0/22
 add list=CN address=103.229.148.0/22
-add list=CN address=103.229.160.0/23
 add list=CN address=103.229.172.0/22
 add list=CN address=103.229.176.0/24
 add list=CN address=103.229.178.0/23
@@ -4036,6 +4033,7 @@ add list=CN address=147.78.132.0/22
 add list=CN address=147.93.80.0/22
 add list=CN address=148.70.0.0/16
 add list=CN address=149.104.15.0/24
+add list=CN address=149.104.172.0/24
 add list=CN address=150.107.68.0/22
 add list=CN address=150.107.80.0/22
 add list=CN address=150.107.248.0/22
