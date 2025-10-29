@@ -1,4 +1,4 @@
-#Last Modified: 2025年 10月 29日 星期三 05:30:01 CST
+#Last Modified: 2025年 10月 30日 星期四 05:30:01 CST
 /log info "Start updating CN_IP_List!"
 /log info "Start removing old list!"
 /ip firewall address-list remove [/ip firewall address-list find list=CN]
